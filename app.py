@@ -39,7 +39,7 @@ if "messages" not in st.session_state:
 
 # Hàm gửi/nhận phản hồi dạng stream
 def stream_chat_style(user_message, session_id):
-    url = "http://tekup.dongnamduocgl.com/gplus-chatbot/generate-message"
+    url = "https://tekup.dongnamduocgl.com/gplus-chatbot/generate-message"
     payload = {
         "user_message": user_message,
         "session_id": session_id
